@@ -1,0 +1,13 @@
+score = 0
+
+q1 = input("Capital of India: ")
+
+if q1.lower() == "delhi":
+    score += 1
+
+q2 = input("Python is programming language? yes/no: ")
+
+if q2.lower() == "yes":
+    score += 1
+
+print("Final Score =", score)
